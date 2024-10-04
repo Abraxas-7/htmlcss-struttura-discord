@@ -1,6 +1,5 @@
 /* Generals */
 
-
 /* Custum properties */
 :root{
     --bg-light: #F6F6F6;
@@ -17,7 +16,7 @@
 }
 
 body{
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Whitney', Helvetica, Arial, sans-serif;
 }
 
 /* Utility flex*/
@@ -66,13 +65,11 @@ body{
     margin: auto;
 }
 
+
 /* --- Headrer --- */
 header{
     height: 50px;
 }
-
-
-
 
 /* --- Main --- */
 #hero{
@@ -97,7 +94,9 @@ header{
     text-align: center;
 }
 
-
+#call-to-action{
+    height: 400px;
+}
 
 .image{
     width: 60%;
@@ -108,5 +107,15 @@ header{
     width: 40%;
 }
 
-
 /* --- Footer --- */
+footer{
+    height: 500px;
+}
+
+div#top-footer > div{
+    width: 18%;
+}
+
+footer ul{
+    list-style: none;
+}
