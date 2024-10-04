@@ -1,0 +1,112 @@
+/* Generals */
+
+
+/* Custum properties */
+:root{
+    --bg-light: #F6F6F6;
+    --bg-dark: #23272a;
+    --bg-blue: #255EE9;
+    --contrast-color: #748ADB;
+}
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Utility flex*/
+.d-flex{
+    display: flex;
+}
+
+.j-space-between{
+    justify-content: space-between;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.f-column{
+    flex-direction: column;
+}
+
+.f-row{
+    flex-direction: row;
+}
+
+.r-reverse{
+    flex-direction: row-reverse;
+}
+
+/* Containers */
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.small-container{
+    width: 60%;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* --- Headrer --- */
+header{
+    height: 50px;
+}
+
+
+
+
+/* --- Main --- */
+#hero{
+    height: 600px;
+    text-align: center;
+}
+
+#place{
+    height: 800px;
+}
+
+#meet{
+    height: 800px;
+}
+
+#comunity{
+    height: 800px;
+}
+
+#tecnology{
+    height: 800px;
+    text-align: center;
+}
+
+
+
+.image{
+    width: 60%;
+    height: 500px;
+}
+
+.content{
+    width: 40%;
+}
+
+
+/* --- Footer --- */
